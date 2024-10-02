@@ -1,0 +1,24 @@
+.login-page{
+    background-color: #ffffff;
+    width: 92%;
+    height: 80%;
+    position: absolute;
+    top: 60px;
+    border-radius: 25px;
+    left: 60px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+
+    .header{
+       img{
+       width: 6.5rem !important;
+       height: 3.5rem !important;
+       }
+       
+       button.btns{
+        background-color: #ffffff !important;
+        padding: 31px 125px 0px 125px;
+       }
+    }
+}

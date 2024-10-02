@@ -1,0 +1,16 @@
+.alkye-test-btn{
+    color: #ffffff;
+    padding: 115px 50px 10px 18rem;
+
+  @media (max-width: 1200px) {
+    padding-left: 2rem; /* Adjust padding-left as needed */
+    gap: 4rem;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 2rem;
+  }
+}

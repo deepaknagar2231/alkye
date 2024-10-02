@@ -1,0 +1,47 @@
+.pass-cont{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 31px 125px 0px 125px;
+    gap: 2rem;
+    .btm-msg-comp{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+    .pass-content{
+        padding-top: 25px;
+        h1,p {
+            padding: 3px 0px 3px 0px;
+        }
+    }
+
+    .pass-input{
+        display: flex;
+        flex-direction: column;
+        padding-top: 55px;
+        gap: 15px;
+        input[type="password"],input[type="text"] {
+        height: 40px;
+        border-radius: 4px;
+        width: 500px;
+        border: 1px solid rgb(222 222 222 / 99%);
+        }
+        input::placeholder {
+    /* Your desired styles here */
+    margin-left: 20rem;
+    }
+    .msg-with-btn{
+    display: flex;
+    justify-content: space-between;
+    button.continue {
+        width: 36%;
+        background-color: black;
+        height: 100%;
+        color: white;
+        border-radius: 8px;
+    }
+}
+
+}
+}

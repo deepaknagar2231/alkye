@@ -1,0 +1,12 @@
+.test-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 31px 125px 0px 125px;
+    gap: 10px;
+    a{
+  text-decoration: underline;
+}
+   
+}

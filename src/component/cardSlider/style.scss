@@ -1,0 +1,13 @@
+.photos{
+    display: flex;
+    flex-direction: column;
+    
+    h3{
+        margin-bottom: 10px;
+    }
+    .photos-card {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+}

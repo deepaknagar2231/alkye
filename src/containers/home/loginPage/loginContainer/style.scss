@@ -1,0 +1,42 @@
+.login-comp{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 31px 125px 0px 125px;
+    gap: 2rem;
+
+    .login-content{
+        padding-top: 25px;
+        h1,p {
+            padding: 3px 0px 3px 0px;
+        }
+    }
+
+    .login-input{
+        display: flex;
+        flex-direction: column;
+        padding-top: 55px;
+        gap: 15px;
+
+        input[type="email"] {
+        height: 70px;
+        border-radius: 4px;
+        width: 500px;
+        border: 1px solid rgb(222 222 222 / 99%);
+        }
+        input::placeholder {
+        margin-left: 20rem;
+        }
+        button.continue {
+            width: 26%;
+            background-color: black;
+            height: 26%;
+            color: white;
+            border-radius: 8px;
+            position: relative;
+            left: 370px;
+            margin-bottom: 10px;
+        }
+}
+}
