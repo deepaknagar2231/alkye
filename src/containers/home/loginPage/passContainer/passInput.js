@@ -34,8 +34,7 @@ const PassInput = () => {
                     username: loginContext.state.username,
                     password: pass
                 })
-            })
-                .then(response => response.json())
+            }).then(response => response.json())
                 .then(data => {
                     if(data.token){
                         loginContext.setStateHandler({ loading: false })
@@ -46,11 +45,11 @@ const PassInput = () => {
                    
                 })
                 .catch(error => {
-                    console.log(error)
                     message.error(error.non_field_errors);
+                    message.error("Unable to log in with provided credentials.");
                 });
             loginContext.setStateHandler({ loading: false })
-            message.error("Unable to log in with provided credentials.");
+           
             return;
         }
 
